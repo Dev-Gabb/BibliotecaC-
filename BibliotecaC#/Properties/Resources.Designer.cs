@@ -63,6 +63,16 @@ namespace BibliotecaC_.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abra_o_livro {
+            get {
+                object obj = ResourceManager.GetObject("abra-o-livro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap conversa_em_grupo {
             get {
                 object obj = ResourceManager.GetObject("conversa-em-grupo", resourceCulture);
@@ -86,6 +96,16 @@ namespace BibliotecaC_.Properties {
         internal static System.Drawing.Bitmap do_utilizador {
             get {
                 object obj = ResourceManager.GetObject("do-utilizador", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lendo_um_livro {
+            get {
+                object obj = ResourceManager.GetObject("lendo-um-livro", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
